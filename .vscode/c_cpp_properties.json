@@ -12,7 +12,7 @@
                 "/home/lyj/sdk/esp/esp8266_rtos_sdk/components/heap/include",
                 "/home/lyj/sdk/esp/esp8266_rtos_sdk/components/heap/port/esp8266/include",
                 "/home/lyj/sdk/esp/esp8266_rtos_sdk/components/log/include",
-                "${workspaceFolder}/common/clib/inc"
+                "${workspaceFolder}/components/lyj_lib/clib/inc"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

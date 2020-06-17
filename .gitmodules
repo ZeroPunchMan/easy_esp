@@ -1,0 +1,9 @@
+[submodule "clib"]
+	path = clib
+	url = https://github.com/ZeroPunchMan/clib.git
+[submodule "components/clib"]
+	path = components/clib
+	url = https://github.com/ZeroPunchMan/clib.git
+[submodule "components/lyj_lib/clib"]
+	path = components/lyj_lib/clib
+	url = https://github.com/ZeroPunchMan/clib.git

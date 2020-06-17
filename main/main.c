@@ -2,6 +2,7 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "driver/uart.h"
+#include "cl_log.h"
 
 void app_main(void)
 {
@@ -9,7 +10,7 @@ void app_main(void)
     uart_set_baudrate(UART_NUM_0, 115200);
     while (1)
     {
-        printf("[%d] Hello world!", i);
+        CL_LOG_LINE("--[%d]-- Hello world!", i);
         i++;
         vTaskDelay(1000 / portTICK_PERIOD_MS);
     }

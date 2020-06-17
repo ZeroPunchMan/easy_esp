@@ -1,9 +1,9 @@
 {
     "files.exclude": {
         "build/": true,
-        "common/clib/.vscode": true,
-        "common/clib/testcase": true,
-        "common/clib/.gitignore": true,
-        "common/clib/clib_template.h": true,
+        "components/lyj_lib/clib/.vscode": true,
+        "components/lyj_lib/clib/testcase": true,
+        "components/lyj_lib/clib/.gitignore": true,
+        "components/lyj_lib/clib/clib_template.h": true,
     }
 }
