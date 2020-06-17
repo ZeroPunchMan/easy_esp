@@ -1,0 +1,9 @@
+{
+    "files.exclude": {
+        "build/": true,
+        "common/clib/.vscode": true,
+        "common/clib/testcase": true,
+        "common/clib/.gitignore": true,
+        "common/clib/clib_template.h": true,
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/lyj/sdk/esp/esp8266_rtos_sdk/components/freertos/include",
+                "/home/lyj/sdk/esp/esp8266_rtos_sdk/components/freertos/include/freertos/private",
+                "/home/lyj/sdk/esp/esp8266_rtos_sdk/components/freertos/port/esp8266/include/freertos",
+                "/home/lyj/sdk/esp/esp8266_rtos_sdk/components/esp8266/include",
+                "/home/lyj/sdk/esp/esp8266_rtos_sdk/components/freertos/port/esp8266/include",
+                "/home/lyj/sdk/esp/esp8266_rtos_sdk/components/heap/include",
+                "/home/lyj/sdk/esp/esp8266_rtos_sdk/components/heap/port/esp8266/include",
+                "/home/lyj/sdk/esp/esp8266_rtos_sdk/components/log/include",
+                "${workspaceFolder}/common/clib/inc"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c99",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "${env:IDF_PATH}/components",
+                    "${env:XTENSA_PATH}"
+                ]
+            }
+        }
+    ],
+    "version": 4
+}
