@@ -17,5 +17,10 @@
             "type": "shell",
             "command": "make flash",
         },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "make clean",
+        },
     ]
 }
